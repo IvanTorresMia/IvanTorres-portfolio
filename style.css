@@ -1,10 +1,19 @@
 body {
-    background-image: url(assets/images/Background\ Image.jpg);
+    background-image: url(assets/images/background\ image.jpg);
 }
 .my-row {
     margin-top: 10%;
 }
 .my-footer {
     background-color: gray;
-    padding-top: 1px;
+    border-top: 10px;
+    border-color: aqua;
+}
+
+.my-about-me {
+    margin: 20px;
+}
+
+.about-me-row {
+    margin: 5%;
 }
