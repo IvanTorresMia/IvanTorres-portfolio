@@ -6,14 +6,10 @@ body {
 }
 .my-footer {
     background-color: gray;
-    border-top: 10px;
-    border-color: aqua;
 }
 
 .my-about-me {
     margin: 20px;
-    font-style: italic;
-    color: aqua;
 }
 
 .about-me-row {
@@ -34,4 +30,32 @@ body {
 
 .contact-header {
     margin: 20px;
+}
+
+.footer a {
+    color: #22262a;
+    text-decoration: underline;
+}
+
+.top-line {
+    border-top: 5px solid #16a3b8;
+}
+
+.bottom-line {
+    border-bottom: 2px solid #d6d0d0;
+}
+
+#navbarNav a {
+    color: gray;
+}
+
+#navbarNav a:hover {
+    color: black;
+}
+
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 15px;
 }
