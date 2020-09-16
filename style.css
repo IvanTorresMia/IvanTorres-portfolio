@@ -1,3 +1,10 @@
 body {
     background-image: url(assets/images/Background\ Image.jpg);
 }
+.my-row {
+    margin: 40px;
+}
+.my-footer {
+    background-color: gray;
+    padding-top: 1px;
+}
