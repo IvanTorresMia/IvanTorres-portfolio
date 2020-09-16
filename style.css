@@ -1,61 +1,50 @@
+/* Background Image */
 body {
     background-image: url(assets/images/background\ image.jpg);
 }
-.my-row {
-    margin-top: 10%;
-}
-.my-footer {
-    background-color: gray;
-}
 
-.my-about-me {
-    margin: 20px;
+/* styling for Navigation */
+#navbarNav a {
+    color: gray;
 }
-
-.about-me-row {
-    margin: 5%;
+#navbarNav a:hover {
+    color: black;
 }
-.my-header {
-    background-color: aqua;
-    padding: 10px;
-    margin-left: 40px;
-
-}
-
-.contact-container {
-    border: 1px solid black;
-    background-color: white;
-
-}
-
-.contact-header {
-    margin: 20px;
-}
-
-.footer a {
-    color: #22262a;
-    text-decoration: underline;
-}
-
-.top-line {
-    border-top: 5px solid #16a3b8;
-}
-
 .bottom-line {
     border-bottom: 2px solid #d6d0d0;
 }
 
-#navbarNav a {
-    color: gray;
-}
-
-#navbarNav a:hover {
-    color: black;
-}
-
+/* Added this for fun, lines between the nav items */
 .vertical-line{
     display: inline-block;
     border-left: 1px solid #ccc;
     margin: 0 10px;
     height: 15px;
 }
+
+/* styling for Containers */
+.about-me-row {
+    margin: 5%;
+}
+.my-header {
+    padding: 10px;
+    margin-left: 40px;
+}
+
+/* Portfolio styling
+.portfolio img {
+    margin: 10px;
+} */
+
+/* Styling for Footer starts here */
+.top-line {
+    border-top: 5px solid #16a3b8;
+}
+.my-footer {
+    background-color: gray;
+}
+.footer a {
+    color: #22262a;
+    text-decoration: underline;
+}
+
