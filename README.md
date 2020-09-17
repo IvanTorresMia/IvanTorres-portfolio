@@ -15,9 +15,9 @@ This Webstie is essentially a portfolio about Who I am with three parts to the w
 * This one I thought was pretty cool, I was able to add lines in between the nav items.
     * ![NavBarLines](assets/images/NavBarLines.jpg)
 * this is the footer and it's code, I included this because it actually took me a while to get this to sit right and add the padding on the top
-    * ![Footer](assets/images/footer.jpg)
-    * ![Footer](assets/images/footer-Code.jpg)
-    * ![Footer](assets/images/footerStyling.jpg)
+    * ![Footer](assets/images/Footer.jpg)
+    * ![FooterCode](assets/images/Footer-Code.jpg)
+    * ![FooterStyling](assets/images/FooterStyling.jpg)
 
 
 
