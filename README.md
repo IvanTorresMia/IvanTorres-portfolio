@@ -9,7 +9,7 @@ This Webstie is essentially a portfolio about Who I am with three parts to the w
 * [BOOTSTRAP](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ## Features
-
+![Navbar](assets/images/NavBar.jpg)
 
 
 ## Author
@@ -22,4 +22,6 @@ Ivan Torres
 Credits for this homework assignment go out to Jerome, Manuel, Kerwin, Roger, and all of my classmates who helped me in study sessions. 
 
 ## License]
-[MIT](https://choosealicense.com/licenses/mit/#)
+[MIT](https://choosealicense.com/licenses/mit/#) 
+
+
