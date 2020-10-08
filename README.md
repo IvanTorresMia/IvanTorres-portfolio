@@ -9,6 +9,8 @@ This Webstie is essentially a portfolio about Who I am with three parts to the w
 * [BOOTSTRAP](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ## Features
+![GIF](assets/portfolio2gif.gif)
+
 * this is my Nav bar and it's code, in all honesty this took me a long time to actually figure out but I got it to work after a few hairs fell out and really grasping the googlefoo thing.
     * ![Navbar](assets/images/NavBar.jpg)
     * ![NavBarCode](assets/images/NavBarCode.jpg)
@@ -26,7 +28,7 @@ This Webstie is essentially a portfolio about Who I am with three parts to the w
 Ivan Torres
 * [Deployed-Link](https://ivantorresmia.github.io/IvanTorres-portfolio/)
 * [GitHub-Repo](https://github.com/IvanTorresMia/IvanTorres-portfolio)
-* [linkedIn](www.linkedin.com/in/ivan-torres-0828931b2)
+* [linkedIn](https://www.linkedin.com/in/ivan-torres-0828931b2/)
 
 ## Credits
 Credits for this homework assignment go out to Jerome, Manuel, Kerwin, Roger, and all of my classmates who helped me in study sessions. 

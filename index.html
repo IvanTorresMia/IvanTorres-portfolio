@@ -1,119 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Ivan's Portfolio</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Nav Bar -->
     <!-- Header and Navbar semantic markup -->
     <header class="mb-5">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light bottom-line">
-        <a class="navbar-brand my-header p-3 mb-2 bg-info text-white" href="index.html">Ivan Torres</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bottom-line">
+            <a class="navbar-brand my-header p-3 text-muted relative" href="index.html">Ivan Torres</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span>
                     <span class="vertical-line"></span>
                 </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio<span class="vertical-line"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="vertical-line"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!-- About me Container -->
-    <section class="container pb-5 mb-5">
-      <div class="card mb-3" style="max-width: 540px; padding: 20px">
-        <h1
-          class="card-title text-info"
-          style="margin-top: 20px; margin-left: 20px"
-        >
-          About Me
-        </h1>
-        <hr />
-        <div class="about-me-row">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="assets/images/IMG_6862.jpg" class="card-img" alt="Image of Ivan In LA" height="85%" width="25%"/>
+    <section class="container pb-5 mb-5 " data-aos="fade-up">
+        <div class="card mb-3" style="max-width: 700px; padding: 20px">
+            <h1 class="card-title text-info" style="margin-top: 20px; margin-left: 20px">
+                About Me
+            </h1>
+            <hr />
+            <div class="about-me-row">
+                <div class="row no-gutters">
+                    <div class="col-md-4 mt-4">
+                        <img src="assets/images/IMG_6862.jpg" class="card-img" alt="Image of Ivan In LA" width="50px" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Welcome to my portfolio! My name is Ivan and I am an aspiring Full Stack Developer currently enrolled in UC Berkely Boot Camp. I am a creative individual who learns fast and loves a challange. So far in my life time I have worked in the Auto Mechanincs
+                                industry. In this season of my life I am looking to be a full time Developer. My skills are now Node.js, HTML5, CSS, Javascript, AJAX, jQuer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-md-12">
+                        <h5 class="card-text text-info">
+                            Social Media and Resume
+                        </h5>
+                        <!-- class img-thumbnail -->
+                        <a href="https://github.com/IvanTorresMia" target="_blank">
+                            <img class="img-thumbnail m-2" src="assets/github-logo-black.jpg" alt="GitHub Icon" style="width: 34px;">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ivan-torres-0828931b2/" target="_blank">
+                            <img class="img-thumbnail m-2" src="assets/linkedIn.png" alt="GitHub Icon" style="width: 34px;">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ivan-torres-0828931b2/" target="_blank">
+                            <img class="img-thumbnail m-2" src="assets/cv.png" alt="GitHub Icon" style="width: 34px;">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <p class="card-text">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                  libero sit amet quam egestas semper. Aenean ultricies mi vitae
-                  est. Mauris placerat eleifend leo.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-md-12">
-              <p class="card-text">
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                libero sit amet quam egestas semper. Aenean ultricies mi vitae
-                est. Mauris placerat eleifend leo.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- footer -->
     <!-- Footer and semantic markup -->
     <footer class="footer fixed-bottom top-line">
-      <div class="my-footer">
-        <div class="footer-copyright text-center py-3">
-          © 2020 Copyright:
-          <a href="https://choosealicense.com/licenses/mit/">MIT licenses</a>
+        <div class="my-footer">
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+                <a href="https://choosealicense.com/licenses/mit/">MIT licenses</a>
+            </div>
         </div>
-    </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>
