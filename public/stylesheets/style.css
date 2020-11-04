@@ -1,7 +1,8 @@
 /* Background Image */
 
 body {
-    background-image: url(assets/background.jpg);
+    background-image: url(/assets/background2.jpg);
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
 

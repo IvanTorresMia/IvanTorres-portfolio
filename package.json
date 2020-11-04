@@ -1,0 +1,26 @@
+{
+  "name": "ivantorres-portfolio",
+  "version": "1.0.0",
+  "description": "My own profile picture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanTorresMia/IvanTorres-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanTorresMia/IvanTorres-portfolio/issues"
+  },
+  "homepage": "https://github.com/IvanTorresMia/IvanTorres-portfolio#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "express": "^4.16.3"
+  }
+}
