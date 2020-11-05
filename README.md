@@ -9,17 +9,17 @@ This Webstie is essentially a portfolio about Who I am with three parts to the w
 * [BOOTSTRAP](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ## Features
-![GIF](assets/portfolio2gif.gif)
+![GIF](./public/assets/portfolio-gif.gif)
 
 * this is my Nav bar and it's code, in all honesty this took me a long time to actually figure out but I got it to work after a few hairs fell out and really grasping the googlefoo thing.
-    * ![Navbar](assets/images/NavBar.jpg)
-    * ![NavBarCode](assets/images/NavBarCode.jpg)
+    * ![Navbar](./public/assets/images/NavBar.jpg)
+    * ![NavBarCode](./public/assets/images/NavBarCode.jpg)
 * This one I thought was pretty cool, I was able to add lines in between the nav items.
-    * ![NavBarLines](assets/images/NavBarLines.jpg)
+    * ![NavBarLines](./public/assets/images/NavBarLines.jpg)
 * this is the footer and it's code, I included this because it actually took me a while to get this to sit right and add the padding on the top
-    * ![Footer](assets/images/Footer.jpg)
-    * ![FooterCode](assets/images/Footer-Code.jpg)
-    * ![FooterStyling](assets/images/FooterStyling.jpg)
+    * ![Footer](./public/assets/images/Footer.jpg)
+    * ![FooterCode](./public/assets/images/Footer-Code.jpg)
+    * ![FooterStyling](./public/assets/images/FooterStyling.jpg)
 
 
 
@@ -29,6 +29,7 @@ Ivan Torres
 * [Deployed-Link](https://ivantorresmia.github.io/IvanTorres-portfolio/)
 * [GitHub-Repo](https://github.com/IvanTorresMia/IvanTorres-portfolio)
 * [linkedIn](https://www.linkedin.com/in/ivan-torres-0828931b2/)
+* [HerokuLink](https://ivantorresmia.herokuapp.com/)
 
 ## Credits
 Credits for this homework assignment go out to Jerome, Manuel, Kerwin, Roger, and all of my classmates who helped me in study sessions. 
